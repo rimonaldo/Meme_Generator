@@ -4,21 +4,18 @@
     display: flex;
     flex-direction: column;
     
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .save-box{
-    border: 1px green solid;
+    /* border: 1px green solid; */
 }
 
-.fa-download::before{
-    content: "\f019";
-    color: rgb(255, 166, 0);
-}
+
 
 .actions-box input{
     /* margin-bottom: 0.3em; */
-    border: 1px green solid;
+    /* border: 1px green solid; */
 
     width: 500px;
 
@@ -27,9 +24,9 @@
 
 .action-btns{
     margin: auto;
-    padding-inline-start: 2.7em;
+    padding-inline-start: 3.2em;
     /* border: 1px rgb(214, 52, 52) solid; */
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: row;
 }
@@ -45,13 +42,15 @@
 }
 
 .action-btn{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     padding-inline-start: 0.3rem;
     /* margin-bottom: 0.3rem; */
     padding: 0;
     margin: auto;
-    
+
+    background-color: #A4BAB7;
+    border-radius: 5px;    
 }
 
 .action-btn span{
@@ -75,22 +74,12 @@
 
 
 .size-input{
-   width: 50px;
-   height: 50px;
+   width: 60px;
+   height: 60px;
+
 }
 
-.line-btns{
-    /* border: 1px white solid; */
-    margin-bottom: 0.5rem;
-}
-
-.text-btns{
-    /* border: 1px white solid; */
-    margin-bottom: 0.5rem;
-}
-
-.align-btns{
-    /* border: 1px white solid; */
+.btns{
     margin-bottom: 0.5rem;
 }
 
@@ -137,4 +126,14 @@
     left: 0;
     opacity: 0;
     background-color: white;
+}
+
+.fa-download::before{
+    content: "\f019";
+    color: rgb(255, 166, 0);
+}
+
+.fa-save::before{
+    content: "\f0c7";
+    color: #080F0F;
 }

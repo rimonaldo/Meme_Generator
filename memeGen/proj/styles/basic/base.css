@@ -10,7 +10,7 @@ body {
     width: 99.1vw;
     height: 100vh;
     background-color: rgb(12, 11, 14);
-    color: orange;
+    color: rgb(25, 0, 255);
 }
 
 .fa.fa-solid::before{

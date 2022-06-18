@@ -3,7 +3,10 @@
     width: 80%;
     display: flex;
     /* border: 1px red solid; */
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px green solid;
+
 }
 
 .canvas-box{
